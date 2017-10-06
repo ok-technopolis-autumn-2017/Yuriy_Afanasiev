@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>todo App</title>
+</head>
+<body>
+    <div class="main-container" role="main">
+        <h1 class="header">todos</h1>
+        <div class="todo-header">
+            <img class="todo-image" src="icons/select-all.png" aria-label="select all items">
+            <form name="create-todo" action="#" method="post">
+                <input class="todo-input" placeholder="What needs to be done" name="todo-value">
+            </form>
+        </div>
+        <div class="item-container" role="listitem">
+            <form action="#" method="post">
+                <input class="item-checkbox" type="checkbox" name="item1">
+            </form>
+            <p class="todo-value">HTML</p>
+        </div>
+        <div class="item-container" role="listitem">
+            <form action="#" method="post">
+                <input class="item-checkbox" type="checkbox" name="item2" checked>
+            </form>
+            <p class="todo-value-complete">CSS</p>
+        </div>
+        <div class="item-container" role="listitem">
+            <form action="#" method="post">
+                <input class="item-checkbox" type="checkbox" name="item3">
+            </form>
+            <p class="todo-value">JS</p>
+        </div>
+        <div class="item-container" role="listitem">
+            <form action="#" method="post">
+                <input class="item-checkbox" type="checkbox" name="item4">
+            </form>
+            <p class="todo-value">JS Tools</p>
+            <a href="#"><img class="todo-image" src="icons/close.png" aria-label="Close todo item"></a>
+        </div>
+        <div class="todo-footer">
+            <div class="footer-item">3 items left</div>
+            <button class="footer-status">All</button>
+            <button class="footer-status">Active</button>
+            <button class="footer-status">Completed</button>
+            <div class="footer-item">Clear completed</div>
+        </div>
+    </div>
+</body>
+</html>
